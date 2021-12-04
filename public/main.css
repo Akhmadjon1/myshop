@@ -49,3 +49,142 @@
   height: 653px;
   background-color: white;
 }
+
+.profil{
+  position: relative;
+  width: 228px;
+  height: 267px;
+  margin-top: 50px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description{
+  position: relative;
+width: 221px;
+height: 126px;
+margin-left: 40px;
+margin-top: 25px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: blue;
+}
+
+.line{
+  position: relative;
+width: 220px;
+height: 0px;
+margin-left: 40px;
+margin-top: 45.41px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 1.5px solid #F0F0F6; 
+}
+
+.languages{
+  position: relative;
+width: 220px;
+height: 153px;
+margin-left: 40px;
+margin-top: 25px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: blue;
+}
+
+.skills{
+  position: relative;
+  width: 220px;
+  height: 242px;
+  margin-left: 40px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+.extra_skills{
+  position: relative;
+  width: 186px;
+  height: 148px;
+  margin-left: 40px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+.picture{
+  position: relative;
+width: 156.16px;
+height: 142.53px;
+display: flex;
+flex-direction:column ;
+justify-content: center;
+align-items: center;
+}
+.picture img{
+  border-radius: 50%;
+}
+
+.name{
+  position: relative;
+width: 66.63px;
+height: 20.9px;
+margin-top: 29.46px;
+/* H4 - 18px */
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 123.6%;
+/* or 22px */
+
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+/* Black */
+
+color: #2B2B2B;
+}
+
+.profession{
+  position: relative;
+width: 147.84px;
+height: 25.65px;
+margin-top: 6.65px;
+display: flex;
+justify-content: center;
+
+/* Paragraph Progress - 15 */
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+
+text-transform: capitalize;
+font-feature-settings: 'calt' off, 'kern' off;
+
+/* Paragraph Font */
+
+color: #767676;
+
+}
