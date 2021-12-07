@@ -93,12 +93,12 @@ width: 220px;
 height: 153px;
 margin-left: 40px;
 margin-top: 25px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-background-color: blue;
+justify-content: flex-start;
+flex-direction: row;
+/* font-size: 18px; */
+font-family: black
 }
+
 
 .skills{
   position: relative;
@@ -227,6 +227,7 @@ background: #FFB400;
   height: 25px;
   display: flex;
   flex-direction: row; 
+  margin-top: 25px;
  
 }
 
@@ -235,7 +236,7 @@ position: relative;
 width: 46.21px;
 height: 24px;
 border-radius: 10%;
- align-items: center;
+text-align: center;
 justify-content: center;
 background: #FFB400;
 }
@@ -252,16 +253,17 @@ justify-content: flex-end;
   width: 220px;
   height: 24px;
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
+  margin-top: 9px; 
  
 }
 
 .residence1{
 position: relative;
-width: 89px;
+width: 78px;
 height: 24px;
 border-radius: 10%;
-align-items: center;
+text-align: center;
 justify-content: center;
 background: #FFB400;
 }
@@ -279,6 +281,7 @@ background: #FFB400;
   height: 25px;
   display: flex;
   flex-direction: row; 
+  margin-top: 10px;
  
  
 }
@@ -288,7 +291,7 @@ background: #FFB400;
   width: 74px;
   height: 24px;
   border-radius: 10%;
-  align-items: center;
+  text-align: center;
   justify-content: center;
   background: #FFB400;
   
@@ -305,27 +308,130 @@ background: #FFB400;
 
 
 
-/* .adress{
+.adress{
   position: relative;
-  width: 75px;
+  width: 90 px;
   height: 24px;
   display: flex;
   flex-direction: row; 
+  margin-top: 10px;
+ 
  
 }
 
 .adress1{
-position: relative;
-width: 63px;
-height: 24px;
-border-radius: 10%;
-align-items: center;
-justify-content: center;
-background: #FFB400;
+  position: relative;
+  width: 74px;
+  height: 24px;
+  border-radius: 10%;
+  text-align: center;
+  justify-content: center;
+  background: #FFB400;
 }
 
 .adress2{
-display: flex;
-width: 100%;
-justify-content: flex-end;
-} */
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  justify-content: flex-end;
+}
+
+.uzbek{
+  position: relative;
+  width: 220px;
+  height: 24px;
+  display: flex;
+  flex-direction: row; 
+  margin-top: 10px;
+}
+
+.uzbek1{
+  width: 51px;
+  height: 24px;
+  
+}
+
+.uzbek2{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.rectangle{
+  position: relative;
+  width: 220px;
+  height: 4px;
+  margin-top: 6px;
+  border-radius: 30px;
+  border: 0.5px solid #FFB400;
+  background: #FFB400;
+   /* height: 2px; */
+ 
+}
+
+ 
+.english{
+  position: relative;
+  width: 220px;
+  height: 24px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row; 
+  
+}
+
+.english1{
+  width: 51px;
+  height: 24px;
+  
+}
+
+.english2{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.rectangle1{
+  position: relative;
+  width: 220px;
+  margin-top: 6px;
+  height: 4px;
+  border-radius: 30px;
+  border: 0.5px solid #FFB400;
+  background: #FFB400;
+}
+
+.korean{
+  position: relative;
+  width: 220px;
+  height: 24px;
+  display: flex;
+  flex-direction: row; 
+  margin-top: 9px;
+}
+
+.korean1{
+  width: 51px;
+  height: 24px;
+  
+}
+
+.korean2{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.rectangle2{
+  position: relative;
+  width: 220px;
+  height: 4px;
+  margin-top: 6px;
+  border-radius: 30px;
+  border: 0.5px solid #FFB400;
+  background: #FFB400;
