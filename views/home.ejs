@@ -54,12 +54,12 @@
                     </div>
                     <div class="rectangle"><div class="rectangle1"></div> </div>
                     <div class="english">
-                        <div class="english1">English</div>
+                        <div class="english1"><%=user.languages[0]%></div>
                         <div class="english2">85%</div>
                     </div>
                     <div class="rectangle2"><div class="rectangle3"></div> </div> 
                     <div class="korean">
-                        <div class="korean1">Korean</div>
+                        <div class="korean1"><%=user.languages[1]%></div>
                          <div class="korean2">50%</div>
                     </div>
                     <div class="rectangle4"><div class="rectangle5"></div> </div>
@@ -70,28 +70,28 @@
                 <div class="skills">
                     <div class="skills1">Skills</div>
                     <div class="html">
-                        <div class="html1">HTML</div>
+                        <div class="html1"><%=user.skills[0]%></div>
                         <div class="html2">90%</div>
                     </div>
                     <div class="rectangle6"><div class="rectangle7"></div> </div>
                     <div class="css">
-                        <div class="css1">CSS</div>
+                        <div class="css1"><%=user.skills[1]%></div>
                         <div class="css2">85%</div>
                     </div>
                         <div class="rectangle8"><div class="rectangle9"></div> </div>
                     <div class="js">
-                        <div class="js1">Js</div>
+                        <div class="js1"><%=user.skills[2]%></div>
                         <div class="js2">80%</div>
                     </div>
                     <div class="rectangle10"><div class="rectangle11"></div> </div>
-                    <div class="php">
-                        <div class="php1">PHP</div>
-                        <div class="php2">75%</div>
+                    <div class="nodejs">
+                        <div class="nodejs1"><%=user.skills[3]%></div>
+                        <div class="nodejs2">75%</div>
                      </div>
                         <div class="rectangle12"><div class="rectangle13"></div> </div>    
-                        <div class="wordpress">
-                            <div class="wordpress1">WordPress</div>
-                            <div class="wordpress2">85%</div>
+                        <div class="python">
+                            <div class="python1"><%=user.skills[4]%></div>
+                            <div class="python2">85%</div>
                         </div>
                             <div class="rectangle14"><div class="rectangle15"></div> </div>  
                 </div>
@@ -101,18 +101,18 @@
                 <div class="extra_skills">
                     <div class="extra_skills1">Extra Skills</div>
                 <div class="double_icons"><img src="icon/icons.svg" alt="">
-                    <div class="skill_name">Bootstrap, Materialize</div>
+                    <div class="skill_name"><%=user.extra_skills[0]%></div>
                 </div>
     
                 <div class="double_icons1"><img src="icon/icons.svg" alt="">
-                    <div class="skill_name1">Stylus, Sass, Less</div>
+                    <div class="skill_name1"><%=user.extra_skills[1]%></div>
                 </div>
 
                 <div class="double_icons2"><img src="icon/icons.svg" alt="">
-                    <div class="skill_name2"> Gulp, Webpack, Grunt</div>
+                    <div class="skill_name2"><%=user.extra_skills[2]%></div>
                 </div>
                 <div class="double_icons3"><img src="icon/icons.svg" alt="">
-                    <div class="skill_name3">GIT Knowledge</div>
+                    <div class="skill_name3"><%=user.extra_skills[3]%></div>
                 </div>
 
                 </div>
@@ -123,19 +123,28 @@
 
             <div class="midd_frame">
             <div class="midd_top">  
-            <div class="com2"><div class="com1"> 
+            <div class="com2">
+            <div class="com1"> 
                 <div class="about">Software Engineer in RedBalloon company</div>
-                <div class="abtmyself">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dignissimos itaque minima cum nisi unde sequi quod asperiores, veniam, voluptatibus modi eum magnam obcaecati natus esse rem ut. Cumque, itaque.</div> 
+                <div class="abtmyself"><%=user.about_me%></div> 
                 <div class="hire"> HIRE ME <div class="vector1"><img src="icon/vector1.svg"></div> 
                 </div>
             </div>
             <div class="mainpic"><img src="https://i.ibb.co/Gp62brj/my-passport-photo-removebg-preview.png"></div>
             </div>
+    
             </div>
 
+                <div class="midd_bot">
+                    <div class="my_services">
+                        <div class="my_services1">My Services</div>
+                        <div class="service_desc">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</div>
 
 
-                <div class="midd_bot">2.2</div>
+                    </div>
+
+
+                </div>
 
 
 

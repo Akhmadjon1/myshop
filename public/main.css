@@ -623,7 +623,7 @@ justify-content: flex-end;
 
 }
 
-.php{
+.nodejs{
   position: relative;
   width: 220px;
   height: 24px;
@@ -634,13 +634,13 @@ justify-content: flex-end;
 
 }
 
-.php1{
+.nodejs1{
   width: 51px;
   height: 24px;
 
 }
 
-.php2{
+.nodejs2{
   display: flex;
   width: 100%;
   align-items: center;
@@ -666,7 +666,7 @@ justify-content: flex-end;
 
 }
 
-.wordpress{
+.python{
   position: relative;
   width: 220px;
   height: 24px;
@@ -677,17 +677,17 @@ justify-content: flex-end;
 
 }
 
-.wordpress1{
+.python1{
   width: 51px;
   height: 24px;
 
 }
 
-.wordpress2{
-display: flex;
-width: 100%;
-align-items: center;
-justify-content: flex-end; 
+.python2{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end; 
 }
 
 .rectangle14{
@@ -880,5 +880,43 @@ flex-direction: row;
  display: flex;
  flex-direction: row;
  
+}
+
+.my_services{
+  position: relative;
+  width: 970px;
+  height: 173px;
+  display: flex;
+  flex-direction: column;
+  background: #E5E5E5;
+
+}
+
+.my_services{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 123.6%;
+  text-transform: capitalize;
+  color: #2B2B2B;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.service_desc{
+  position: relative;
+  width: 438px;
+  height: 68px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 25px;
+  text-transform: capitalize;
+  font-feature-settings: 'calt' off, 'kern' off;
+  color: #767676;
 
 }
