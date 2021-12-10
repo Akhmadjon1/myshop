@@ -5,7 +5,7 @@
     "residence": "S.Korea",
     "freelance": "Available",
     "adress": "S.Korea, Busan",
-    "languages": "English,Korean,Uzbek",
+    "languages": ["English","Korean","Uzbek"],
     "skills": "HTML,CSS,JS,NodeJS,Python",
     "extra_skills": "Bootstrap, Materialize, Stylus, Sass, Less, Gulp, Webpack, Grunt, GIT Knowledge",
     "work_place": "Somyon station",
