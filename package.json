@@ -1,10 +1,10 @@
 {
   "name": "myshop",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "dev":"nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +14,17 @@
     "cors": "^2.8.5",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "moment": "^2.29.1"
-  }
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akhmadjon1/myshop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Akhmadjon1/myshop/issues"
+  },
+  "homepage": "https://github.com/Akhmadjon1/myshop#readme",
+  "description": ""
 }
